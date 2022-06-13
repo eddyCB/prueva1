@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(imagenes/MicrosoftTeams-image.png);
+    background-size: cover;
+}
+
+.box {
+    width: 500px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin: 100px auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: rgb(114, 112, 112);
+    opacity: 0.8;
+    border-radius: 10px;
+}
+
+.mi_foto {
+    border-radius: 50%;
+}
+
+.box h1 {
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    margin: 30px 0 20px;
+}
+
+.box h2 {
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    margin: 0 0 30px 0;
+}
+
+.box p {
+    text-align: justify;
+}
+
+.box ul {
+    margin-top: 20px;
+    list-style: none;
+}
+
+.box ul li {
+    display: inline-block;
+    font-size: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.box ul li a {
+    display: block;
+}
+
+.box ul li a:hover {
+    color: blueviolet;
+    transform: scale(1.5);
+}
